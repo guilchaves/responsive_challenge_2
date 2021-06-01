@@ -1,0 +1,12 @@
+@import url('./_reset.css');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding-left: 6%;
+  padding-right: 6%;
+
+  margin-top: 2.375rem;
+}
