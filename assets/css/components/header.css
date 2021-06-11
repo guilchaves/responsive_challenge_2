@@ -5,13 +5,14 @@
   margin-left: 0.75rem;
 
   box-sizing: border-box;
+  margin-bottom: 3rem;
 }
 
 .header__title {
   height: 3rem;
   margin-top: 4.5rem;
 
-  font-family: 'PT Serif', serif;
+  font-family: var(--pt-serif);
   font-weight: 700;
   font-size: 2.25rem;
 }
@@ -45,6 +46,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .header {
+    margin-bottom: 6rem;
+  }
+
   .header__container___content {
     max-width: 420px;
 

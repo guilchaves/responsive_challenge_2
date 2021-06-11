@@ -1,0 +1,29 @@
+/**
+*font-family: 'Montserrat', sans-serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+/**
+*font-family: 'PT Serif', serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif');
+
+/**
+*font-family: 'Poppins', sans-serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+:root {
+  --montserrat: 'Montserrat', sans-serif;
+  --pt-serif: 'PT Serif', serif;
+  --poppins: 'Poppins', sans-serif;
+
+  --black: #000000;
+  --grey: #a9a9a9;
+  --white: #fafafa;
+
+  --mg-left-right: 0.75rem;
+}
