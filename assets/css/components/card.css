@@ -1,0 +1,91 @@
+.team-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  margin: auto;
+  max-width: 630px;
+}
+
+.card {
+  width: 10rem;
+  height: 15rem;
+
+  margin-bottom: 3rem;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-pic {
+  width: 90%;
+  height: 95%;
+}
+
+.card-role {
+  margin-left: 1rem;
+
+  transform: rotate(90deg);
+  transform-origin: left top;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+
+  text-transform: uppercase;
+  font-family: var(--pt-serif);
+  font-weight: 400;
+  font-size: 0.625rem;
+  color: var(--black);
+}
+
+.card-name {
+  margin-top: 0.625rem;
+
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 0.875rem;
+
+  text-transform: capitalize;
+}
+
+.card:nth-child(2) {
+  margin-top: 3rem;
+}
+
+.card:nth-child(4) {
+  margin-top: 3rem;
+}
+
+.card:nth-child(6) {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 480px) {
+  .card:nth-child(5) {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-card {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .team-card {
+    max-width: 900px;
+  }
+  .card {
+    width: 15.625rem;
+    height: 21.25rem;
+  }
+}
