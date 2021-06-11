@@ -1,11 +1,12 @@
-.team-card {
+.team-cards {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
 
   margin: auto;
-  max-width: 630px;
+  width: 100%;
+  max-width: 39.375rem;
 }
 
 .card {
@@ -21,14 +22,14 @@
 }
 
 .card-pic {
-  width: 90%;
-  height: 95%;
+  width: 8.625rem;
+  height: 13.25rem;
 }
 
 .card-role {
   margin-left: 1rem;
 
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
   transform-origin: left top;
   top: 0;
   left: 100%;
@@ -81,11 +82,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .team-card {
-    max-width: 900px;
+  .team-cards {
+    max-width: 56.25rem;
   }
   .card {
     width: 15.625rem;
+    height: 21.25rem;
+  }
+  .card-pic {
+    width: 14.875rem;
     height: 21.25rem;
   }
 }

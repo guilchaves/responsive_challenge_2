@@ -17,9 +17,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
 :root {
-  --montserrat: 'Montserrat', sans-serif;
-  --pt-serif: 'PT Serif', serif;
-  --poppins: 'Poppins', sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --pt-serif: "PT Serif", serif;
+  --poppins: "Poppins", sans-serif;
 
   --black: #000000;
   --grey: #a9a9a9;
